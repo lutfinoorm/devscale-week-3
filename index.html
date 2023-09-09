@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="src/css/global.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 3 Devscale</title>
+  </head>
+  <body class="relative">
+    <main class="min-h-screen flex flex-col gap-20 justify-between">
+
+      <!-- header start -->
+      <header class="md:flex md:justify-between items-center p-10">
+        <div class="text-center text-3xl">lutfinoorm</div>
+        <div class="flex gap-12 bg-stone-200 px-6 py-2 rounded-full w-full md:w-fit justify-center items-center">
+          <div class="link">About</div>
+          <div class="link">Craft</div>
+          <div class="link">Media</div>
+        </div>
+        <div class="text-center">Contact</div>
+      </header>
+      <!-- header end -->
+
+      <!-- contain start -->
+      <section class="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- main card -->
+        <div class="card md:col-span-2 relative">
+          <div class="absolute top-2 right-3 flex gap-2 items-center bg-orange-300 border-orange-400 border-[1px] w-fit rounded-full px-4 py-2 text-xs">
+            <div class="w-2 h-2 rounded-full bg-cyan-300 animate-pulse"></div>
+            <div>Currently learning</div>
+          </div>
+          <img src="public/lutfinoorm.png" alt="image-of-me" class="w-16 h-16 rounded-full">
+          <div>Lutfinoor Muhamad</div>
+          <div class="text-xs">Web Developer @Annawawi Center, ID</div>
+          <div class="flex gap-1 items-baseline">
+            <h1 class="inline">Me: <div id="heading" class="inline"></div></div></h1>
+            <div></div>
+          </div>
+        </div>
+        
+        <!-- facebook card -->
+        <a href="https://www.facebook.com/lutfinoor.muhamad" target="_blank" class="card flex justify-center items-center bg-white">
+          <img src="public/facebook.png" alt="facebook-icon" class="w h-[70px] w-[70px]" />
+        </a>
+
+        <!-- project card -->
+        <div class="card flex justify-center items-center relative bg-lime-50">
+          <a class="text-s font-extralight">devscale project</a>
+          <a target="_blank" href="https://rrl6ns.csb.app/" class="absolute left-2 bottom-2 bg-yellow-200 border-yellow-500 border-[1px] p-3 flex rounded-full">
+            <img src="public/arrow.png" alt="arrow-icon" class="h-4 w-4">
+          </a>
+        </div>
+
+
+        <!-- <div class="card"></div> -->
+
+        <!-- form card -->
+        <div class="card md:col-span-2">
+          <h3>Collaboration?</h3>
+          <p>I'm ready to develop something. Feel free to ask!</p>
+          <input id="form" type="email">
+        </div>
+      </section>
+      <!-- contain end -->
+
+      <!-- footerstart -->
+      <footer class="flex justify-around items-center py-5 m-0 bg-blue-100">
+        <div>build with practice and patience. <em class="not-italic font-medium block md:inline">design inspired by <a href="https://nevflynn.com/" class="text-blue-700">nevflynn</a> and <a href="https://personal-page-example.vercel.app/"><div class="inline font-black bg-gradient-to-r from-rose-400 to-80% to-yellow-400 bg-clip-text text-transparent tracking-tighter">indrazm.</div></a></em></div>
+      </footer>
+      <!-- footer end -->
+
+
+
+
+    </main>
+    <script src="src/js/main.js" type="module"></script>
+  </body>
+</html>
